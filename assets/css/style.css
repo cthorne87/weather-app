@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+    font-size: 30px;
+    margin: 85px 285px 15px 285px;
+    background-image: linear-gradient(to right,  RGB(59,109,195), RGB(35,5,85));
+    font-weight: bolder;
+    color: white;
+    padding-bottom: 10px;
+}
+#input {
+    width: 100%;
+}
+#searchBtn {
+    width: 100%;
+}
+#search h4 {
+    font-size: 32;
+    font-weight: bold;
+}
+.card-title {
+    border-width: 0px;
+}
+.list-group-item {
+    border-width: 0px;
+}
+#city {
+    border-width: 0px;
+}
+.card {
+    border-width: 0px;
+    
+}
