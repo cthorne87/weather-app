@@ -12,7 +12,7 @@ const app = {
         let cityName = document.getElementById('input').value;
         let apiKey = "1bb4ca202846b97a3b9b56fdd24db801"
         let limit = "1"
-        let url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=${limit}&appid=${apiKey}`;
+        let url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=${limit}&appid=${apiKey}`;
         //let location = data[0].name
 
       fetch(url)
