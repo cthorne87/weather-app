@@ -123,13 +123,13 @@ app.init();
 
 
   
-  for(var i = 0; i<localStorage.length; i++){
-  var data = JSON.parse(localStorage(Object.keys(localStorage)[i]));
-  
-  var newLocationButton = $("<button>")
-  .addClass("btn pastSearch mt-3 w-100")
-  .attr("id", data[0].name)
-  .text(data[0].name)
+for(var i = 0; i<localStorage.length; i++){
+var data = JSON.parse(localStorage[Object.keys(localStorage)[i]]);
+
+var newLocationButton = $("<button>")
+.addClass("btn pastSearch mt-3 w-100")
+.attr("id", data[0].name)
+.text(data[0].name)
 searchColumn.append(newLocationButton);
   }
 $('.pastSearch').click(function(){
